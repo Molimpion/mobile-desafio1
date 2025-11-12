@@ -1,56 +1,58 @@
-mobile-desafio1
-Este repositório contém o projeto hello-rn, um aplicativo simples desenvolvido como parte de um desafio mobile. O aplicativo utiliza React Native com Expo e TypeScript.
+# mobile-desafio1
 
-🚀 Sobre o Projeto
-O aplicativo exibe uma lista dos três Pokémon iniciais (Bulbasauro, Charmander e Squirtle). Ao clicar no botão "Dados do pokémon" correspondente, o aplicativo faz uma chamada à PokeAPI para buscar e exibir informações detalhadas daquele Pokémon, incluindo seu nome, peso e imagem oficial.
+Este repositório contém o projeto `hello-rn`, um aplicativo simples desenvolvido como parte de um desafio mobile. O aplicativo utiliza React Native com Expo e TypeScript.
 
-Funcionalidades
-Exibição de uma lista de Pokémon pré-definida.
+## 🚀 Sobre o Projeto
 
-Busca de dados em tempo real da PokeAPI (https://pokeapi.co/api/v2/pokemon/).
+O aplicativo exibe uma lista dos três Pokémon iniciais (Bulbasauro, Charmander e Squirtle). Ao clicar no botão "Dados do pokémon" correspondente, o aplicativo faz uma chamada à [PokeAPI](https://pokeapi.co/) para buscar e exibir informações detalhadas daquele Pokémon, incluindo seu nome, peso e imagem oficial.
 
-Exibição dinâmica do nome, peso e imagem do Pokémon selecionado.
+### Funcionalidades
 
-Tratamento de erro básico caso a busca falhe.
+  * Exibição de uma lista de Pokémon pré-definida.
+  * Busca de dados em tempo real da PokeAPI (`https://pokeapi.co/api/v2/pokemon/`).
+  * Exibição dinâmica do nome, peso e imagem do Pokémon selecionado.
+  * Tratamento de erro básico caso a busca falhe.
 
-🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
+
 O projeto foi construído utilizando as seguintes tecnologias:
 
-React Native
+  * **React Native**
+  * **Expo**
+  * **TypeScript**
 
-Expo
+## 🏁 Como Executar
 
-TypeScript
-
-🏁 Como Executar
 Para rodar este projeto localmente, siga os passos abaixo:
 
-Clone este repositório:
+1.  Clone este repositório:
 
-Bash
+    ```bash
+    git clone [URL_DO_REPOSITORIO]
+    ```
 
-git clone [URL_DO_REPOSITORIO]
-Navegue até o diretório do aplicativo:
+2.  Navegue até o diretório do aplicativo:
 
-Bash
+    ```bash
+    cd molimpion/mobile-desafio1/mobile-desafio1-155e5b14d06a29b5ccf4f9c79d2ac8504b82423e/hello-rn
+    ```
 
-cd molimpion/mobile-desafio1/mobile-desafio1-155e5b14d06a29b5ccf4f9c79d2ac8504b82423e/hello-rn
-Instale as dependências do projeto:
+3.  Instale as dependências do projeto:
 
-Bash
+    ```bash
+    npm install
+    ```
 
-npm install
-Inicie o servidor de desenvolvimento do Expo:
+4.  Inicie o servidor de desenvolvimento do Expo:
 
-Bash
+    ```bash
+    npm start
+    ```
 
-npm start
-(Este comando executa expo start)
+    *(Este comando executa `expo start`)*
 
-Após iniciar o servidor, você pode optar por rodar o aplicativo:
+5.  Após iniciar o servidor, você pode optar por rodar o aplicativo:
 
-No Android (via Expo Go ou simulador): npm run android
-
-No iOS (via Expo Go ou simulador): npm run ios
-
-Na Web: npm run web
+      * No Android (via Expo Go ou simulador): `npm run android`
+      * No iOS (via Expo Go ou simulador): `npm run ios`
+      * Na Web: `npm run web`
